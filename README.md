@@ -8,3 +8,5 @@ Chrome Extension Page Parser
 3) Click "Load unpacked" found in the header, and select the PhraseFinder directory on your local.
 
 Bob's your uncle.
+
+phrases.json contains the phrases to match, and the suggestion text. Create, update, delete as needed. 
