@@ -33,7 +33,7 @@ const parsePage = (node, regex, callback) => {
 };
 
 const parseText = (phrases) => {
-	let entryPoint = document.getElementsByTagName('body')[0];
+	const entryPoint = document.getElementsByTagName('body')[0];
 	Object.keys(phrases).forEach(key => {
 		let phraseClassName = key;
 		let phraseGroup = phrases[key];
