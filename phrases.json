@@ -14,7 +14,7 @@
 		},
 		{
 			"phrase":"illegal asylum seeker",
-			"suggestion":""
+			"suggestion":"asd"
 		},
 		{
 			"phrase":"refugee",
@@ -35,8 +35,8 @@
 			"suggestion":"Use only when referring to people with hearing loss (check with them first). Reword when discussing decisionmakers that are ignoring concerns."
 		},
 		{
-			"phrase":"ex-pat",
-			"suggestion":""
+			"phrase":"immigrant",
+			"suggestion":"qwe"
 		},
 		{
 			"phrase":"migrant",
@@ -54,15 +54,15 @@
 		},
 		{
 			"phrase":"legal alien",
-			"suggestion":""
+			"suggestion":"zxc"
 		},
 		{
 			"phrase":"naturalized",
-			"suggestion":""
+			"suggestion":"fgh"
 		},
 		{
 			"phrase":"illegal immigrant",
-			"suggestion":""
+			"suggestion":"rty"
 		}
 	]
 }
