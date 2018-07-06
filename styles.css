@@ -16,10 +16,14 @@ mark.class1,mark.class2,mark.class3 {
 	background: rgba(0, 0, 0, 0.6);
 	border-radius: 5px;
 	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
 	left: 0;
-	margin-top: 10px;
+	line-height: normal;
+	margin: 10px 0 0 0;
 	opacity: 0;
-	padding: 15px;
+	padding: 10px;
 	pointer-events: none;
 	position: absolute;
 	text-align: center;
@@ -40,9 +44,11 @@ mark.class1,mark.class2,mark.class3 {
 	margin-top: 20px;
 }
 #phrasesTooltip.show {
+	font-style: normal;
 	margin-top: 10px;
 	opacity: 1;
 	pointer-events: all;
+	text-decoration: none;
 }
 #phrasesTooltip.show.top {
 	margin-top: 10px;
