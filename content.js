@@ -112,8 +112,8 @@ const Tooltip = {
 		Tooltip.tooltip.style.top = pos_top + 'px';
 		function getOffset(element) {
 			const rect = element.getBoundingClientRect(),
-			scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-			scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			scrollLeft = window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+			scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
 			return {
 				top: rect.top + scrollTop, left: rect.left + scrollLeft
 			}
@@ -125,4 +125,3 @@ const Tooltip = {
 };
 
 } // window.onload
-
